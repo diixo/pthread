@@ -12,7 +12,7 @@ void* thread_func(void *arg) {
         n = rand() % nMax;
         pthread_mutex_lock(&count_mutex);
         for(count=0; count<n; ++count) {
-            printf("loop %d: xxxx\n", count);
+            printf("loop %d: xxxx\n", count+1);
         }
         pthread_mutex_unlock(&count_mutex);
     }
