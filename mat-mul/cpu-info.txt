@@ -1,0 +1,21 @@
+Architecture:          x86_64
+CPU 运行模式：    32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+每个核的线程数：2
+每个座的核数：  2
+Socket(s):             1
+NUMA 节点：         1
+厂商 ID：           GenuineIntel
+CPU 系列：          6
+型号：              58
+步进：              9
+CPU MHz：             1270.851
+BogoMIPS:              5188.28
+虚拟化：           VT-x
+L1d 缓存：          32K
+L1i 缓存：          32K
+L2 缓存：           256K
+L3 缓存：           3072K
+NUMA node0 CPU(s):     0-3

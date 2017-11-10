@@ -12,7 +12,8 @@ void * thread_func(void *arg) {
 int main() {
     pthread_t thread;
     printf("threads created!\n");
-    pthread_create(&thread, NULL, thread_func, (void*)10);
+    int i = 10;
+    pthread_create(&thread, NULL, thread_func, (void*)i);
     pthread_join(thread, NULL);
     return 0;
 }
